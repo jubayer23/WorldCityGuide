@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">World CityGuide</string>
+    <string name="action_settings">Settings</string>
+
+
+    <string name="banner_ad_unit_id">ca-app-pub-6630695342409368/6135677531</string>
+
+    <string name="intertitial_ad_unit_id">ca-app-pub-6630695342409368/7612410737</string>
+
+
+    <!-- Action Bar action items -->
+    <string name="action_search">Sarch</string>
+    <string name="action_location_found">Location Found</string>
+    <string name="action_refresh">Refresh</string>
+    <string name="action_fav">Favourite</string>
+    <string name="action_share">Share</string>
+    <string name="action_declaimer">Disclaimer</string>
+    <string name="action_moreapps">More Apps</string>
+    <string name="action_check_updates">Check for Updates</string>
+
+
+    <!-- Search  -->
+    <string name="search_hint">Search Places..</string>
+    <string name="title_activity_dummy">DummyActivity</string>
+</resources>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:com.creative.nearbyplaces="http://schemas.android.com/apk/res-auto">
+    <!-- Search Widget -->
+    <item
+        android:id="@+id/action_search"
+        android:icon="@drawable/ic_action_search"
+        android:title="@string/action_search"
+        com.creative.nearbyplaces:actionViewClass="android.widget.SearchView"
+        com.creative.nearbyplaces:showAsAction="always" />
+
+    <!-- Help -->
+    <item
+        android:id="@+id/action_fav"
+        android:icon="@drawable/fav_yes"
+        com.creative.nearbyplaces:showAsAction="always"
+        android:title="@string/action_fav" />
+
+    <!-- Help -->
+    <item
+        android:id="@+id/action_share"
+        android:icon="@drawable/share_icon"
+        com.creative.nearbyplaces:showAsAction="always"
+        android:title="@string/action_share" />
+
+    <!-- Help -->
+    <item
+        android:id="@+id/action_moreapps"
+        com.creative.nearbyplaces:showAsAction="never"
+        android:title="@string/action_moreapps" />
+
+    <!-- Help -->
+    <item
+        android:id="@+id/action_decaimer"
+        com.creative.nearbyplaces:showAsAction="never"
+        android:title="@string/action_declaimer" />
+
+    <!-- Check updates -->
+    <item
+        android:id="@+id/action_check_updates"
+        com.creative.nearbyplaces:showAsAction="never"
+        android:title="@string/action_check_updates" />
+</menu>
